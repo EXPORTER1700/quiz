@@ -1,0 +1,14 @@
+.typography {
+
+  &.colorPrimary {
+    color: var(--text-primary-color);
+  }
+
+  &.colorSecondary {
+    color: var(--text-secondary-color);
+  }
+
+  &.colorAppPrimary {
+    color: var(--primary-color);
+  }
+}

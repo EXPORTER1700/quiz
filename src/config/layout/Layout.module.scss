@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+  height: 100dvh;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+
+  .content {
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+    padding: var(--layout-padding);
+  }
+}

@@ -1,0 +1,24 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    background: var(--primary-color-dark);
+    border-radius: 12px;
+    padding: 26px 0;
+    cursor: pointer;
+
+    .emoji {
+      font-size: 75px;
+    }
+
+    &.selected {
+      outline: 1px solid var(--primary-color);
+    }
+  }
+}

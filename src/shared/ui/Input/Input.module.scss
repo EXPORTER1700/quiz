@@ -1,0 +1,23 @@
+.input {
+  background: var(--primary-color-dark);
+  border:none;
+  outline: none;
+  padding: 26px 20px;
+  border-radius: 16px;
+  color: var(--text-primary-color);
+  font-size: 17px;
+  font-weight: 500;
+  width: 100%;
+
+  &:focus {
+    outline: 2px solid var(--primary-color-darker);
+  }
+
+  &::placeholder {
+    color: var(--text-secondary-color);
+  }
+
+  &.error {
+    outline: 2px solid var(--error);
+  }
+}
